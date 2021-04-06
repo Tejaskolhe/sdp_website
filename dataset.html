@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="css/bootstrap-4.5.2/css/bootstrap.min.css">
+
+    <!--Internal Styling-->
+    <link rel="stylesheet" href="css/dataset.css">
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <!-- icons -->
+    <script defer src="css/fontawesome-free-5.15.1-web/js/all.js"></script>
+    <!--logo-->
+    <link rel="icon" type="image" href="images/logo/circle-cropped.png">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300&display=swap" rel="stylesheet">
+
+    <title>Dataset - Rice and Wheat Grain Analyzer</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand name" href="index.html"><strong>Grain Analyzer</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Check Grade
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="wheat.html">Wheat</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="rice.html">Rice</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="active" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Technical
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="api.html">API Documentation</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="dataset.html">Dataset</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="app.html">Android App</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">LOGIN</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="content">
+        <div class="container">
+            <h1 class="text-center mt-4">Wheat Grain</h1>
+            <hr class="solid">
+            <div class="row">
+                <div class="col-md-3">
+                    <h4>Breeds:</h4>
+                    <ol>
+                        <li>Bansi</li>
+                        <li>Emar</li>
+                        <li>Lokvan</li>
+                        <li>MP – Lokvan</li>
+                        <li>Sihor</li>
+                    </ol>
+                </div>
+                <div class="col-md-3">
+                    <h4>Characteristics:</h4>
+                    <ol>
+                        <li>Chewed</li>
+                        <li>Broken</li>
+                        <li>Chewed + Broken</li>
+                    </ol>
+                </div>
+                <div class="col-md-3">
+                    <h4>Dataset Size:</h4>
+                    <ol>
+                        <li>Bansi: 3920 (No. of Grains)</li>
+                        <li>Emar: 3209</li>
+                        <li>Lokvan: 4629</li>
+                        <li>MP – Lokvan: 4993</li>
+                        <li>Sihor: 3916</li>
+                    </ol>
+                    <ul>
+                        <li>Full Grains: 17675</li>
+                        <li>Broken/Chewed: 1963</li>
+                        <li>Chewed + Broken: 1029</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>No. of Samples:</h4>
+                    <ol>
+                        <li>Bansi: 31</li>
+                        <li>Emar: 29</li>
+                        <li>Lokvan: 32</li>
+                        <li>MP – Lokvan: 35</li>
+                        <li>Sihor: 29</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <h3>Resolution of Sample Images</h3>
+                    <ul>
+                        <li>Bansi, Lokvan, MP – Lokvan – 1859 X 2479</li>
+                        <li>Sihor, Emar – 3024 X 4032</li>
+                    </ul>
+                    <h3>Highlighted Features:</h3>
+                    <ul>
+                        <li>High quality and low entropy colored images</li>
+                        <li>Includes grain characteristics to determine grade are according to Food Corporation of India
+                        </li>
+                        <li>Includes images having different Background colors</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <img class="svg" src="images/data.svg" class="float-right">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+
+        <footer class=" mt-3 pt-3 text-center text-lg-start nav-downs" style="background-color: #1b1b1b;">
+            <div class="container">
+                <h4 class="text-center mt-3 mb-3">Connect with us on</h4>
+                <a class="logo btn btn-primary ripple-surface" style="background-color: #3b5998;" href="#!"
+                    role="button">
+                    <i class="fab fa-facebook-f"></i></a>
+                <a class="logo btn btn-primary" style="background-color: #55acee;" href="#!" role="button">
+                    <i class="fab fa-twitter"></i></a>
+                <a class="logo btn btn-primary" style="background-color: #dd4b39;" href="#!" role="button">
+                    <i class="fab fa-google"></i></a>
+                <a class="logo btn btn-primary ripple-surface" style="background-color: #0082ca;" href="#!"
+                    role="button">
+                    <i class="fab fa-linkedin-in"></i></a>
+
+
+                <ul class="list-inline">
+                    <li class="list-inline-item mt-3 vertical">
+                        <a class="text-center footer text-muted" href="about.html">About</a>
+                    </li>
+                    <li class="list-inline-item mt-3">
+                        <a class="text-center footer text-muted " href="terms.html">Privacy Policy</a>
+                    </li>
+                    <li class="mt-3">
+                        <span class="text-center footer text-muted">All Rights Reserved</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- Copyright -->
+            <div class="text-center text-muted p-3" style="background-color: #000;">
+                <p class="mb-1 copyright">© Department of Electronics and Telecommunication VIT, Pune</p>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </div>
+</body>
+
+</html>

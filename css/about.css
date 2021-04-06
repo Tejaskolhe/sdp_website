@@ -1,0 +1,85 @@
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #303030; 
+    border-radius: 10px;
+}
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1b1b1b; 
+}
+.nav-link {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#active {
+    border-bottom: 2px solid #000000;
+    font-weight: bold;
+}
+.navbar {
+    border-bottom: 1px solid #e2e2e2;
+}
+hr.solid {
+    border-top: 1px solid #5b5b5b;
+    width: 40%;
+}
+.name {
+    font-family: 'Josefin Slab', serif;
+}
+.desc {
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.head {
+    color: #303030;
+}
+.img-circle {
+    border-radius: 50%;
+    display: inline;
+    width: 50%;
+}
+
+.figure-caption {
+    margin-top: 20px;
+    color: #303030;
+}
+a.logo {
+    border-color: #1b1b1b;
+}
+.vertical {
+    padding-right: 10px;
+    border-right: 1px solid #303030;
+}
+html {
+    scroll-behavior: smooth;
+  }
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #303030;
+    color: #fff;
+}
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+    transition: bottom 0.2s ease-in-out;
+    font-size: small;
+    
+}
